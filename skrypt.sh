@@ -12,6 +12,13 @@ if [ "$1" == "--logs" ]; then
   done
 fi
 
+if [ "$1" == "--help" ]; then
+  echo "--date        Display current date"
+  echo "--logs [num]  Create log files (default 100)"
+  echo "--help        Display this help message"
+fi
+
+
 
 
 
